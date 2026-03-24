@@ -1,6 +1,6 @@
-# Diaphteiros Kubeswitcher
+# Kubeswitcher Homebrew Tap
 
-## How do I install these formulae?
+## Installation
 
 `brew install diaphteiros/kubeswitcher/<formula>`
 
@@ -12,6 +12,12 @@ Or, in a `brew bundle` `Brewfile`:
 tap "diaphteiros/kubeswitcher"
 brew "<formula>"
 ```
+
+## Available Formulae
+
+<!-- project_table_start -->
+TABLE HERE
+<!-- project_table_end -->
 
 ## Documentation
 
