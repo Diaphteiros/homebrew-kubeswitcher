@@ -16,7 +16,11 @@ brew "<formula>"
 ## Available Formulae
 
 <!-- project_table_start -->
-TABLE HERE
+| Project                                               | Description                                               | Install                  |
+| ----------------------------------------------------- | --------------------------------------------------------- | ------------------------ |
+| [kw](https://github.com/Diaphteiros/kw)               | Small cli tool for switching between multiple kubeconfigs | `brew install kw`        |
+| [kw-garden](https://github.com/Diaphteiros/kw_garden) | Plugin for 'kw' for interacting with a gardener landscape | `brew install kw-garden` |
+| [kw-kind](https://github.com/Diaphteiros/kw_kind)     | Kubeswitcher plugin for switching to 'kind' clusters      | `brew install kw-kind`   |
 <!-- project_table_end -->
 
 ## Documentation
