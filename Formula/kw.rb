@@ -5,31 +5,31 @@
 class Kw < Formula
   desc "Small cli tool for switching between multiple kubeconfigs"
   homepage "https://github.com/Diaphteiros/kw"
-  url "https://github.com/Diaphteiros/kw/archive/refs/tags/v1.1.2.tar.gz"
-  sha256 "4df5ced33d375fafc47e8dd0d16c21b3c48b41b6f22138c376bff501e7802736"
+  url "https://github.com/Diaphteiros/kw/archive/refs/tags/v1.1.4.tar.gz"
+  sha256 "e21c9d4e819d10911002ae137453f3fd95939a3e68650a6ae5fd8e1e01be9715"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Diaphteiros/kw/releases/download/v1.1.2/kw-1.1.2-darwin-amd64.tar.gz"
-      sha256 "9e718c0b452207ae0107d05e0c3f53f312ad5482277923c30306ef612d67ed81"
+      url "https://github.com/Diaphteiros/kw/releases/download/v1.1.4/kw-1.1.4-darwin-amd64.tar.gz"
+      sha256 "e47ee1000ccb461b0cce74269fa33d4bc5b48a316a684e4328e1db4408096901"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw/releases/download/v1.1.2/kw-1.1.2-darwin-arm64.tar.gz"
-      sha256 "b69cb4d4c809bafa0974cd1e0f5fe65ccbe35d030f6cd0eff6a5936331e504e9"
+      url "https://github.com/Diaphteiros/kw/releases/download/v1.1.4/kw-1.1.4-darwin-arm64.tar.gz"
+      sha256 "73a7d07059bfe6fc4dbcc4cc72984c396f4e1991ad3e29434468281407d1d62b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Diaphteiros/kw/releases/download/v1.1.2/kw-1.1.2-linux-amd64.tar.gz"
-      sha256 "e7453831ce2f24b937d5841d762d9def86dccc3744e827184ca7b31cd18d8f8c"
+      url "https://github.com/Diaphteiros/kw/releases/download/v1.1.4/kw-1.1.4-linux-amd64.tar.gz"
+      sha256 "c6dfd52cfc908db70cdb9c201883ae91622c9dc2221104486e5f934be4d07b7d"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw/releases/download/v1.1.2/kw-1.1.2-linux-arm64.tar.gz"
-      sha256 "2e31fd2731a0bcaa09ee9ae20c89ee0c7d676518f2be2479ad01bf52ff1e809d"
+      url "https://github.com/Diaphteiros/kw/releases/download/v1.1.4/kw-1.1.4-linux-arm64.tar.gz"
+      sha256 "4802722b370542de35d58fb6020a640ba42791ad8f8071a55b4ad2d94ed53773"
     end
   end
 
