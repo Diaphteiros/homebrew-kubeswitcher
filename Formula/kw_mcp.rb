@@ -5,31 +5,31 @@
 class KwMcp < Formula
   desc "Kubeswitcher plugin for the openmcp project"
   homepage "https://github.com/Diaphteiros/kw_mcp"
-  url "https://github.com/Diaphteiros/kw_mcp/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "768938941c8ad59715617bb056e566a4586bc37464f8f4226f6421dc27c6993c"
+  url "https://github.com/Diaphteiros/kw_mcp/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "6eda55999b6cbe56c8bc1a09b748e8ce127f0ac9bdfaf98e2d3ea0539baea651"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.0.2/kw_mcp-0.0.2-darwin-amd64.tar.gz"
-      sha256 "997fe2d18ab6b0ed18ffa7e3c65861f4e3a5f084ba3abc466f8622d7a0d7ea73"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.1.0/kw_mcp-0.1.0-darwin-amd64.tar.gz"
+      sha256 "c5349c6196b79f03d8be5f943fa1de43777bfadbd1ec44d0b1aa60ad02041d77"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.0.2/kw_mcp-0.0.2-darwin-arm64.tar.gz"
-      sha256 "23f8f3700f133ac1e1f203da3735f7c18df4b22c6484a54b0ca44a5b6bd036f4"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.1.0/kw_mcp-0.1.0-darwin-arm64.tar.gz"
+      sha256 "b4b1790ee040739440d40f9acf8bbd41b30283560321da5ee8c4459487b1761b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.0.2/kw_mcp-0.0.2-linux-amd64.tar.gz"
-      sha256 "83d7678fe3567a6d8e3423504999cf1d59ad3228a01fbc9a3d687bf32d5d0fb1"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.1.0/kw_mcp-0.1.0-linux-amd64.tar.gz"
+      sha256 "fbcd907e30c1462b9408dd2f950004d6fffde5ddebaa1941db72c7c1d2c710d7"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.0.2/kw_mcp-0.0.2-linux-arm64.tar.gz"
-      sha256 "649dccaafbf398d1b062550a758cadfd1bf2aa687fc620b6f3d5126801292e92"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.1.0/kw_mcp-0.1.0-linux-arm64.tar.gz"
+      sha256 "dc3a361a2b23196c191cf930a40082b71fe1ace7d86db652d5a75d1dce633ed8"
     end
   end
 
