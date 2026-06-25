@@ -5,31 +5,32 @@
 class KwMcp < Formula
   desc "Kubeswitcher plugin for the openmcp project"
   homepage "https://github.com/Diaphteiros/kw_mcp"
-  url "https://github.com/Diaphteiros/kw_mcp/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "6eda55999b6cbe56c8bc1a09b748e8ce127f0ac9bdfaf98e2d3ea0539baea651"
+  url "https://github.com/Diaphteiros/kw_mcp/archive/refs/tags/v0.2.0.tar.gz"
+  version "0.2.0"
+  sha256 "51ff262ad9bad2489ed07e48f400c5861379b7d68ee08406fd1e48a571728f8a"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.1.0/kw_mcp-0.1.0-darwin-amd64.tar.gz"
-      sha256 "c5349c6196b79f03d8be5f943fa1de43777bfadbd1ec44d0b1aa60ad02041d77"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.0/kw_mcp-0.2.0-darwin-amd64.tar.gz"
+      sha256 "e99a078fd1b173b3ad7a3a4b99a9820f4e496ca57e4a674177c35ac3a94e9801"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.1.0/kw_mcp-0.1.0-darwin-arm64.tar.gz"
-      sha256 "b4b1790ee040739440d40f9acf8bbd41b30283560321da5ee8c4459487b1761b"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.0/kw_mcp-0.2.0-darwin-arm64.tar.gz"
+      sha256 "fa3a4d96a13f12fd804d9e53694f14599294e5ba064390f6bd55417f81a542d6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.1.0/kw_mcp-0.1.0-linux-amd64.tar.gz"
-      sha256 "fbcd907e30c1462b9408dd2f950004d6fffde5ddebaa1941db72c7c1d2c710d7"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.0/kw_mcp-0.2.0-linux-amd64.tar.gz"
+      sha256 "66dd19f46c741e3a8a425e6fa3953660aa426cf1c71343c8ba4f065567834ad1"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.1.0/kw_mcp-0.1.0-linux-arm64.tar.gz"
-      sha256 "dc3a361a2b23196c191cf930a40082b71fe1ace7d86db652d5a75d1dce633ed8"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.0/kw_mcp-0.2.0-linux-arm64.tar.gz"
+      sha256 "a703ac45b83b68c010eda5e707ba7c638200a453fd3887621dc9934a0fcf6d22"
     end
   end
 
