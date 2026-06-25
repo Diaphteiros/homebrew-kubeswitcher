@@ -5,31 +5,32 @@
 class KwMcpu < Formula
   desc "Kubeswitcher plugin for switching between the clusters of an openmcp landscape"
   homepage "https://github.com/Diaphteiros/kw_mcpu"
-  url "https://github.com/Diaphteiros/kw_mcpu/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "ead5a4345d2fdb4f675a60db6f8dda6bae4d4b842498775f1a393ad2bfe0b058"
+  url "https://github.com/Diaphteiros/kw_mcpu/archive/refs/tags/v0.0.2.tar.gz"
+  version "0.0.2"
+  sha256 "cd0c9f2380834d8462690323e62d38d6bced585781e233e8780bb316619ffb98"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.1/kw_mcpu-0.0.1-darwin-amd64.tar.gz"
-      sha256 "106be25d9709b3aa4a5b891c84b0614c248e09efe9c69d67a1ac2c5b4faed61d"
+      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.2/kw_mcpu-0.0.2-darwin-amd64.tar.gz"
+      sha256 "ad0c33cc5c60c1b70b8482ac3f8499c0f3b72bee23fa5df7dd63d5779ef562c3"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.1/kw_mcpu-0.0.1-darwin-arm64.tar.gz"
-      sha256 "54ac444dffe10bdb2a896f061aeae51722d17d47da44501e779dad0571927221"
+      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.2/kw_mcpu-0.0.2-darwin-arm64.tar.gz"
+      sha256 "06e00fc3c3eba7ff76a73151a970687aff8099ca9fe5bb4c77d39074f292baa6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.1/kw_mcpu-0.0.1-linux-amd64.tar.gz"
-      sha256 "b05b83857d16b394bcb21f7573f01865eaf407720aeb1e8371f3658f101d0c29"
+      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.2/kw_mcpu-0.0.2-linux-amd64.tar.gz"
+      sha256 "1c2c9e5df0a04c0d4a8524cb15b91a21570a33cc08078a3be6735b0d98c4528c"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.1/kw_mcpu-0.0.1-linux-arm64.tar.gz"
-      sha256 "6d2a5b5dcd623d1c335427752be4c4ce3b5ba413a31062dced535e288b0c3277"
+      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.2/kw_mcpu-0.0.2-linux-arm64.tar.gz"
+      sha256 "6e4d031b53e7160e6aa16578a25a4e3a094fdb0e6cb93995a4de4cf92d84ced6"
     end
   end
 
