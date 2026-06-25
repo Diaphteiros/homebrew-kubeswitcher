@@ -16,12 +16,13 @@ brew "<formula>"
 ## Available Formulae
 
 <!-- project_table_start -->
-| Project                                               | Description                                               | Install                  |
-| ----------------------------------------------------- | --------------------------------------------------------- | ------------------------ |
-| [kw](https://github.com/Diaphteiros/kw)               | Small cli tool for switching between multiple kubeconfigs | `brew install kw`        |
-| [kw-garden](https://github.com/Diaphteiros/kw_garden) | Plugin for 'kw' for interacting with a gardener landscape | `brew install kw-garden` |
-| [kw-kind](https://github.com/Diaphteiros/kw_kind)     | Kubeswitcher plugin for switching to 'kind' clusters      | `brew install kw-kind`   |
-| [kw-mcp](https://github.com/Diaphteiros/kw_mcp)       | Kubeswitcher plugin for the openmcp project               | `brew install kw-mcp`    |
+| Project                                               | Description                                                                    | Install                  |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------ |
+| [kw](https://github.com/Diaphteiros/kw)               | Small cli tool for switching between multiple kubeconfigs                      | `brew install kw`        |
+| [kw-garden](https://github.com/Diaphteiros/kw_garden) | Plugin for 'kw' for interacting with a gardener landscape                      | `brew install kw-garden` |
+| [kw-kind](https://github.com/Diaphteiros/kw_kind)     | Kubeswitcher plugin for switching to 'kind' clusters                           | `brew install kw-kind`   |
+| [kw-mcp](https://github.com/Diaphteiros/kw_mcp)       | Kubeswitcher plugin for the openmcp project                                    | `brew install kw-mcp`    |
+| [kw-mcpu](https://github.com/Diaphteiros/kw_mcpu)     | Kubeswitcher plugin for switching between the clusters of an openmcp landscape | `brew install kw-mcpu`   |
 <!-- project_table_end -->
 
 ## Documentation
