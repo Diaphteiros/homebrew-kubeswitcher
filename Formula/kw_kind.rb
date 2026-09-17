@@ -5,32 +5,32 @@
 class KwKind < Formula
   desc "Kubeswitcher plugin for switching to 'kind' clusters"
   homepage "https://github.com/Diaphteiros/kw_kind"
-  url "https://github.com/Diaphteiros/kw_kind/archive/refs/tags/v1.2.1.tar.gz"
-  version "1.2.1"
-  sha256 "1dc79422b281278000c3a652d73a2391de2eeb4b6ff85a2460f4a91302f8613a"
+  url "https://github.com/Diaphteiros/kw_kind/archive/refs/tags/v1.2.2.tar.gz"
+  version "1.2.2"
+  sha256 "192970eef65f49c9d3cea44a149fe1dc03079189860a46d81ec106177d380de0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_kind/releases/download/v1.2.1/kw_kind-1.2.1-darwin-amd64.tar.gz"
-      sha256 "444c26e89bfed8ddd1d526719447fb496808ce811406de053653ce783d89248d"
+      url "https://github.com/Diaphteiros/kw_kind/releases/download/v1.2.2/kw_kind-1.2.2-darwin-amd64.tar.gz"
+      sha256 "5885d7e5bed9f2547f0ceab9c807879659814a0c254f555bdb98ab5d7144cefb"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_kind/releases/download/v1.2.1/kw_kind-1.2.1-darwin-arm64.tar.gz"
-      sha256 "851a3e8c14d1b35daa1c7e3a688eddd37309ba6bc52e18b4a1ba4a2132015fca"
+      url "https://github.com/Diaphteiros/kw_kind/releases/download/v1.2.2/kw_kind-1.2.2-darwin-arm64.tar.gz"
+      sha256 "240bb3354893493ac31fb79a1c729bfa43472d362c9c2c070d47503e1f393641"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_kind/releases/download/v1.2.1/kw_kind-1.2.1-linux-amd64.tar.gz"
-      sha256 "97196efe3cf625b7f07a3edac55273517b5c39cddb9ba40e20a78030bbebe306"
+      url "https://github.com/Diaphteiros/kw_kind/releases/download/v1.2.2/kw_kind-1.2.2-linux-amd64.tar.gz"
+      sha256 "09b854d4697db335f61c58ee59ed9dd7cb2291b89b00fb74a7663a79cec59b7a"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_kind/releases/download/v1.2.1/kw_kind-1.2.1-linux-arm64.tar.gz"
-      sha256 "db3d371c94676b59c37d391d541a34283540e679b9b3f8510621787e558b5c33"
+      url "https://github.com/Diaphteiros/kw_kind/releases/download/v1.2.2/kw_kind-1.2.2-linux-arm64.tar.gz"
+      sha256 "25d953f346c251be734c8e219b04b5f5f76bd7657905a6f5984dd643634d826e"
     end
   end
 
