@@ -5,32 +5,32 @@
 class Kw < Formula
   desc "Small cli tool for switching between multiple kubeconfigs"
   homepage "https://github.com/Diaphteiros/kw"
-  url "https://github.com/Diaphteiros/kw/archive/refs/tags/v1.2.0.tar.gz"
-  version "1.2.0"
-  sha256 "96d812c1b5eb467ddaab27a0f5d8bde7a9c0a7b1db4217941be89f69f96fe23d"
+  url "https://github.com/Diaphteiros/kw/archive/refs/tags/v1.2.1.tar.gz"
+  version "1.2.1"
+  sha256 "08ea4a8bac0b89e45560763b3aeaf2d6eaf9dd794cb50e11f636b58fb3c2f2fe"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Diaphteiros/kw/releases/download/v1.2.0/kw-1.2.0-darwin-amd64.tar.gz"
-      sha256 "a2972a41549142804dc26657493124ed0c7fa9fd8e1784990c94027c540ae864"
+      url "https://github.com/Diaphteiros/kw/releases/download/v1.2.1/kw-1.2.1-darwin-amd64.tar.gz"
+      sha256 "ee996273f3c7ae043ad4ddb37b71f7d3fd556d11057424c55b7a6fc09254be55"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw/releases/download/v1.2.0/kw-1.2.0-darwin-arm64.tar.gz"
-      sha256 "03910dcdd35cf73d731378cda11a07ea95b803edbf04e23a58f1bd15def23888"
+      url "https://github.com/Diaphteiros/kw/releases/download/v1.2.1/kw-1.2.1-darwin-arm64.tar.gz"
+      sha256 "ac13ff588cf5e4ba1d648fd0dd6216d6d7f5b940772a91a7a7cc4e545dd2c550"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Diaphteiros/kw/releases/download/v1.2.0/kw-1.2.0-linux-amd64.tar.gz"
-      sha256 "144a9f67b11bb3a5c96fa1ef1ecd1c2eaf428f916873b106252195a73619f81b"
+      url "https://github.com/Diaphteiros/kw/releases/download/v1.2.1/kw-1.2.1-linux-amd64.tar.gz"
+      sha256 "b3490f3cd0426af5b464ca03a4a0f96bfe863a8075a909f238dcb4d34346a91f"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw/releases/download/v1.2.0/kw-1.2.0-linux-arm64.tar.gz"
-      sha256 "eada5e5dd721543f5dfe6975bdffc33345cc20c52da85abb06d96cdf8380f1d4"
+      url "https://github.com/Diaphteiros/kw/releases/download/v1.2.1/kw-1.2.1-linux-arm64.tar.gz"
+      sha256 "1ed2a84048778f557ab21755c31cd5810b35bb70dd19ebf4edb7f364d9b12610"
     end
   end
 
