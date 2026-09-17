@@ -5,32 +5,32 @@
 class KwMcpu < Formula
   desc "Kubeswitcher plugin for switching between the clusters of an openmcp landscape"
   homepage "https://github.com/Diaphteiros/kw_mcpu"
-  url "https://github.com/Diaphteiros/kw_mcpu/archive/refs/tags/v0.0.2.tar.gz"
-  version "0.0.2"
-  sha256 "cd0c9f2380834d8462690323e62d38d6bced585781e233e8780bb316619ffb98"
+  url "https://github.com/Diaphteiros/kw_mcpu/archive/refs/tags/v0.0.3.tar.gz"
+  version "0.0.3"
+  sha256 "c66740811659d8b8ce93975ec680e02088d27c093c04d7163662ee12d3051314"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.2/kw_mcpu-0.0.2-darwin-amd64.tar.gz"
-      sha256 "ad0c33cc5c60c1b70b8482ac3f8499c0f3b72bee23fa5df7dd63d5779ef562c3"
+      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.3/kw_mcpu-0.0.3-darwin-amd64.tar.gz"
+      sha256 "e64f4b3c5ccb18bc17d12f2bc909b3124f0fc13d9ffc3868aaaf9813d54bd248"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.2/kw_mcpu-0.0.2-darwin-arm64.tar.gz"
-      sha256 "06e00fc3c3eba7ff76a73151a970687aff8099ca9fe5bb4c77d39074f292baa6"
+      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.3/kw_mcpu-0.0.3-darwin-arm64.tar.gz"
+      sha256 "1c8cee7c41882dae9cfaeae2b472f3cb1f810e6b0801f9eb2e7bbd380756a15a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.2/kw_mcpu-0.0.2-linux-amd64.tar.gz"
-      sha256 "1c2c9e5df0a04c0d4a8524cb15b91a21570a33cc08078a3be6735b0d98c4528c"
+      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.3/kw_mcpu-0.0.3-linux-amd64.tar.gz"
+      sha256 "fdd618174919505badb54f824dbebae2f8094921dfae5eeee8e87febb72c846f"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.2/kw_mcpu-0.0.2-linux-arm64.tar.gz"
-      sha256 "6e4d031b53e7160e6aa16578a25a4e3a094fdb0e6cb93995a4de4cf92d84ced6"
+      url "https://github.com/Diaphteiros/kw_mcpu/releases/download/v0.0.3/kw_mcpu-0.0.3-linux-arm64.tar.gz"
+      sha256 "3fbc988a55f83662a82a3764d9d1870fe4fbde4ec32627f6a3cdfe3b86eb7e70"
     end
   end
 
