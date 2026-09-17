@@ -1,0 +1,28 @@
+name: Fix README Table
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+  workflow_dispatch:
+
+jobs:
+  fix-readme-table:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Replace kw- with kw_ in README table
+        run: |
+          sed -i '/<!-- project_table_start -->/,/<!-- project_table_end -->/s/kw-/kw_/g' README.md
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: fix kw_ formula names in README table")
+          git push
