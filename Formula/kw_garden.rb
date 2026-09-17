@@ -5,32 +5,32 @@
 class KwGarden < Formula
   desc "Plugin for 'kw' for interacting with a gardener landscape"
   homepage "https://github.com/Diaphteiros/kw_garden"
-  url "https://github.com/Diaphteiros/kw_garden/archive/refs/tags/v1.2.1.tar.gz"
-  version "1.2.1"
-  sha256 "01a1a3ca6d95a3afc7d9d661ad5822c0bfc6c10caadd666e291fafed5eeb27d3"
+  url "https://github.com/Diaphteiros/kw_garden/archive/refs/tags/v1.2.2.tar.gz"
+  version "1.2.2"
+  sha256 "f07113be965cccef1b926861de3c3136de085ef292953b8ae04c69c9ba161fb6"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.1/kw_garden-1.2.1-darwin-amd64.tar.gz"
-      sha256 "9034c97a0ae436b5e094b34a84373ced9ac3ac45079bb8e91c8fd9c571d4cb81"
+      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.2/kw_garden-1.2.2-darwin-amd64.tar.gz"
+      sha256 "96f55c3fc9bb9e05069701e3a22614282acbabe0cd0380b3ab346ec088c992db"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.1/kw_garden-1.2.1-darwin-arm64.tar.gz"
-      sha256 "0062359fcd6793670112f0fe5ddf6b04408133c5eb2e37e1ec541bad591c0844"
+      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.2/kw_garden-1.2.2-darwin-arm64.tar.gz"
+      sha256 "ae8d3f7bfa72f7350a663e94e63d2107a1b363b734e637e97b5f88882987da96"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.1/kw_garden-1.2.1-linux-amd64.tar.gz"
-      sha256 "7b4649cf93637e7e2a4ea9e1537b94daf30e067e333d57cf51a54df1bef44f90"
+      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.2/kw_garden-1.2.2-linux-amd64.tar.gz"
+      sha256 "b77ca2cf254a410d575b1094675606bd52a5a3e40f39175f8ddf8dc405c2e4a0"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.1/kw_garden-1.2.1-linux-arm64.tar.gz"
-      sha256 "628126a7f15c6532355776bab473923f3468323f47d464891b5b519e7341a180"
+      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.2/kw_garden-1.2.2-linux-arm64.tar.gz"
+      sha256 "ec2f3992fd90dd97b8cfa2ce904b568198d6ec3edd33b64c033dc1ce0806f09f"
     end
   end
 
