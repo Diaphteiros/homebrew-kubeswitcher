@@ -5,32 +5,32 @@
 class KwMcp < Formula
   desc "Kubeswitcher plugin for the openmcp project"
   homepage "https://github.com/Diaphteiros/kw_mcp"
-  url "https://github.com/Diaphteiros/kw_mcp/archive/refs/tags/v0.2.0.tar.gz"
-  version "0.2.0"
-  sha256 "51ff262ad9bad2489ed07e48f400c5861379b7d68ee08406fd1e48a571728f8a"
+  url "https://github.com/Diaphteiros/kw_mcp/archive/refs/tags/v0.2.1.tar.gz"
+  version "0.2.1"
+  sha256 "8e1130a8912797468c8b4d8240b98581c5abc89a01678541dddb72c54e5eca3c"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.0/kw_mcp-0.2.0-darwin-amd64.tar.gz"
-      sha256 "e99a078fd1b173b3ad7a3a4b99a9820f4e496ca57e4a674177c35ac3a94e9801"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.1/kw_mcp-0.2.1-darwin-amd64.tar.gz"
+      sha256 "35c1bc512e5b4232b64ccef4e75ec00959d05a952a5591f3646c27bade7aa4fd"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.0/kw_mcp-0.2.0-darwin-arm64.tar.gz"
-      sha256 "fa3a4d96a13f12fd804d9e53694f14599294e5ba064390f6bd55417f81a542d6"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.1/kw_mcp-0.2.1-darwin-arm64.tar.gz"
+      sha256 "091f23a881743c820ea3c26035440e5d06272ada95c734cec703f050afbd4298"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.0/kw_mcp-0.2.0-linux-amd64.tar.gz"
-      sha256 "66dd19f46c741e3a8a425e6fa3953660aa426cf1c71343c8ba4f065567834ad1"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.1/kw_mcp-0.2.1-linux-amd64.tar.gz"
+      sha256 "3a44ad25e0694a5957863263f80e183ad056c7998e142d7f67a71d28490d92f4"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.0/kw_mcp-0.2.0-linux-arm64.tar.gz"
-      sha256 "a703ac45b83b68c010eda5e707ba7c638200a453fd3887621dc9934a0fcf6d22"
+      url "https://github.com/Diaphteiros/kw_mcp/releases/download/v0.2.1/kw_mcp-0.2.1-linux-arm64.tar.gz"
+      sha256 "94420d558c87bb66f0d750e78b8bd67f5e4140fdec35f100751b6c53ad9de31b"
     end
   end
 
