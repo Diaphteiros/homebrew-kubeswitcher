@@ -46,7 +46,7 @@ jobs:
       # does, minus that check.
       - run: brew style diaphteiros/kubeswitcher
       - run: brew readall --aliases --os=all --arch=all diaphteiros/kubeswitcher
-      - run: brew audit --except=installed,audit_version --tap=diaphteiros/kubeswitcher
+      - run: brew audit --except=installed,version --tap=diaphteiros/kubeswitcher
       - run: brew test-bot --only-formulae
         if: github.event_name == 'pull_request'
 
