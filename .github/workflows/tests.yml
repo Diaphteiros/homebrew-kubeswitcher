@@ -39,7 +39,14 @@ jobs:
 
       - run: brew test-bot --only-setup
 
-      - run: brew test-bot --only-tap-syntax
+      # brew test-bot --only-tap-syntax hardcodes `brew audit --except=installed` with no way to pass
+      # additional --except flags. We need to exclude audit_version because our formulae intentionally
+      # contain an explicit `version` stanza: without it, brew mis-parses the `-arm64` suffix in
+      # release artifact URLs as a version number. The steps below replicate what --only-tap-syntax
+      # does, minus that check.
+      - run: brew style diaphteiros/kubeswitcher
+      - run: brew readall --aliases --os=all --arch=all diaphteiros/kubeswitcher
+      - run: brew audit --except=installed,audit_version --tap=diaphteiros/kubeswitcher
       - run: brew test-bot --only-formulae
         if: github.event_name == 'pull_request'
 
