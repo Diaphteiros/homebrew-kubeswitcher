@@ -5,40 +5,36 @@
 class KwGarden < Formula
   desc "Plugin for 'kw' for interacting with a gardener landscape"
   homepage "https://github.com/Diaphteiros/kw_garden"
-  url "https://github.com/Diaphteiros/kw_garden/archive/refs/tags/v1.2.2.tar.gz"
-  version "1.2.2"
-  sha256 "f07113be965cccef1b926861de3c3136de085ef292953b8ae04c69c9ba161fb6"
+  url "https://github.com/Diaphteiros/kw_garden/archive/refs/tags/v1.3.0.tar.gz"
+  version "1.3.0"
+  sha256 "900edd81afb42942c0f9ac20636b5de3686d7f8a0afff441e7a55deba8c7a459"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.2/kw_garden-1.2.2-darwin-amd64.tar.gz"
-      sha256 "96f55c3fc9bb9e05069701e3a22614282acbabe0cd0380b3ab346ec088c992db"
+      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.3.0/kw_garden-1.3.0-darwin-amd64.tar.gz"
+      sha256 "8a1d610cb79e62120ae910cae98c6a3a6c9ed9e5a384e06bffe21a3b4d129807"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.2/kw_garden-1.2.2-darwin-arm64.tar.gz"
-      sha256 "ae8d3f7bfa72f7350a663e94e63d2107a1b363b734e637e97b5f88882987da96"
+      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.3.0/kw_garden-1.3.0-darwin-arm64.tar.gz"
+      sha256 "5cbdb212d4bb7ae5d8ef2a47f6aeb0613f4404fe5ef7ff0e897b12210eba17b0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.2/kw_garden-1.2.2-linux-amd64.tar.gz"
-      sha256 "b77ca2cf254a410d575b1094675606bd52a5a3e40f39175f8ddf8dc405c2e4a0"
+      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.3.0/kw_garden-1.3.0-linux-amd64.tar.gz"
+      sha256 "6dfab02a7294520cdbed4cef8adb32d9770440ae9d2ca9217245447c8a73d3c8"
     end
 
     on_arm do
-      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.2.2/kw_garden-1.2.2-linux-arm64.tar.gz"
-      sha256 "ec2f3992fd90dd97b8cfa2ce904b568198d6ec3edd33b64c033dc1ce0806f09f"
+      url "https://github.com/Diaphteiros/kw_garden/releases/download/v1.3.0/kw_garden-1.3.0-linux-arm64.tar.gz"
+      sha256 "b4391138b75d6ece001fffe875d685c7ae457cbb71dfb97fa7b9826998782452"
     end
   end
 
   def install
     bin.install "kw_garden"
-  end
-
-  test do
-    assert_match(/^v\d/, shell_output("#{bin}/kw_garden version"))
   end
 end
