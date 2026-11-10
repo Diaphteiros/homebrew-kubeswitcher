@@ -19,10 +19,10 @@ brew "<formula>"
 | Project                                               | Description                                                                    | Install                  |
 | ----------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------ |
 | [kw](https://github.com/Diaphteiros/kw)               | Small cli tool for switching between multiple kubeconfigs                      | `brew install kw`        |
-| [kw-garden](https://github.com/Diaphteiros/kw_garden) | Plugin for 'kw' for interacting with a gardener landscape                      | `brew install kw-garden` |
-| [kw-kind](https://github.com/Diaphteiros/kw_kind)     | Kubeswitcher plugin for switching to 'kind' clusters                           | `brew install kw-kind`   |
-| [kw-mcp](https://github.com/Diaphteiros/kw_mcp)       | Kubeswitcher plugin for the openmcp project                                    | `brew install kw-mcp`    |
-| [kw-mcpu](https://github.com/Diaphteiros/kw_mcpu)     | Kubeswitcher plugin for switching between the clusters of an openmcp landscape | `brew install kw-mcpu`   |
+| [kw_garden](https://github.com/Diaphteiros/kw_garden) | Plugin for 'kw' for interacting with a gardener landscape                      | `brew install kw_garden` |
+| [kw_kind](https://github.com/Diaphteiros/kw_kind)     | Kubeswitcher plugin for switching to 'kind' clusters                           | `brew install kw_kind`   |
+| [kw_mcp](https://github.com/Diaphteiros/kw_mcp)       | Kubeswitcher plugin for the openmcp project                                    | `brew install kw_mcp`    |
+| [kw_mcpu](https://github.com/Diaphteiros/kw_mcpu)     | Kubeswitcher plugin for switching between the clusters of an openmcp landscape | `brew install kw_mcpu`   |
 <!-- project_table_end -->
 
 ## Documentation
