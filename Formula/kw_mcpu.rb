@@ -37,4 +37,8 @@ class KwMcpu < Formula
   def install
     bin.install "kw_mcpu"
   end
+
+  test do
+    assert_match(/^v\d/, shell_output("#{bin}/kw_mcpu version"))
+  end
 end

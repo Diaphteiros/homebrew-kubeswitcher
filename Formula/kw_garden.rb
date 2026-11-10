@@ -37,4 +37,8 @@ class KwGarden < Formula
   def install
     bin.install "kw_garden"
   end
+
+  test do
+    assert_match(/^v\d/, shell_output("#{bin}/kw_garden version"))
+  end
 end

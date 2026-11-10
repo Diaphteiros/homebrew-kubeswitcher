@@ -37,4 +37,8 @@ class Kw < Formula
   def install
     bin.install "kw"
   end
+
+  test do
+    assert_match(/^v\d/, shell_output("#{bin}/kw version"))
+  end
 end

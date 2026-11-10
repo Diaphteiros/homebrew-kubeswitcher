@@ -37,4 +37,8 @@ class KwMcp < Formula
   def install
     bin.install "kw_mcp"
   end
+
+  test do
+    assert_match(/^v\d/, shell_output("#{bin}/kw_mcp version"))
+  end
 end
